@@ -1,0 +1,19 @@
+{
+  "name": "daverandom/utmp",
+  "description": "Because, that's why",
+  "minimum-stability": "dev",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Chris Wright",
+      "email": "foss.utmp@daverandom.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"DaveRandom\\Utmp\\": "src/"}
+  },
+  "require": {
+    "php": ">=7.2",
+    "daverandom/enum": "^1.0"
+  }
+}
